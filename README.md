@@ -1,12 +1,12 @@
 # 🎧 Audio Denoising Using DSP Techniques
 
-A Python-based Digital Signal Processing (DSP) project that removes background noise from audio recordings using **Spectral Subtraction** and **Wiener Filtering**. The project visualizes the denoising process through waveform and spectrogram analysis, improving overall speech clarity and audio quality.
+A Python-based Digital Signal Processing (DSP) project for audio denoising using **Short-Time Fourier Transform (STFT)**, **Spectral Subtraction**, and **Wiener Filtering**. The project removes background noise from audio recordings and visualizes the results using waveform and spectrogram analysis.
 
 ---
 
 ## 📌 Project Overview
 
-Background noise significantly degrades audio quality and affects applications such as speech recognition, telecommunication, and audio restoration. This project implements a DSP-based audio denoising pipeline that estimates the noise spectrum and suppresses unwanted noise while preserving important speech components.
+Background noise negatively impacts audio quality and speech intelligibility. This project implements a DSP-based audio denoising pipeline that estimates background noise and suppresses it while preserving important speech components. The system provides visual comparisons of the original and denoised signals using waveforms and spectrograms.
 
 ---
 
@@ -71,15 +71,17 @@ Background noise significantly degrades audio quality and affects applications s
 ## 📂 Project Structure
 
 ```text
-Audio-Denoising-DSP/
+DSP-Audio-Denoiser/
 │
-├── input_audio/
-├── output_audio/
-├── images/
-├── notebook.ipynb
-├── requirements.txt
+├── DSP_Audio_Denoiser.ipynb
+├── DENOISER.pdf
 ├── README.md
-└── LICENSE
+├── requirements.txt
+├── 1010.mp3
+└── images/
+    ├── waveform_comparison.png
+    └── original_spectrogram.png
+    └── Denoised_spectrogram.png
 ```
 
 ---
@@ -89,7 +91,7 @@ Audio-Denoising-DSP/
 Clone the repository:
 
 ```bash
-git clone https://github.com/Taslima-Yeasmin-Oyshi/Denoiser.git
+git clone https://github.com/Taslima-Yeasmin-Oyshi/DSP-Audio-Denoiser.git
 ```
 
 Install the required libraries:
@@ -102,10 +104,31 @@ pip install -r requirements.txt
 
 ## ▶️ Usage
 
-1. Place your input audio file inside the project folder.
-2. Update the input file path in the code.
-3. Run the notebook or Python script.
-4. The denoised audio will be generated and saved automatically.
+1. Open the Jupyter Notebook or Google Colab notebook.
+2. Place your input audio file in the project directory.
+3. Update the input file path if necessary.
+4. Run all notebook cells.
+5. The denoised audio and visualizations will be generated automatically.
+
+---
+
+## 📷 Output Visualizations
+
+### Waveform Comparison
+
+Comparison of the original and denoised audio waveforms.
+
+![Waveform Comparison](images/waveform_comparison.png)
+
+### Original Spectrogram
+
+Spectrogram of the original audio signal.
+
+![Original Spectrogram](images/original_spectrogram.png)
+
+### Denoised Spectrogram
+
+![Denoised Spectrogram](images/denoised_spectrogram.png)
 
 ---
 
@@ -120,21 +143,6 @@ The implemented system successfully:
 - Preserves important speech information.
 
 ---
-## 📷 Output Visualizations
-
-### Waveform Comparison
-
-Original vs. denoised audio waveform.
-
-![Waveform Comparison](images/waveform_comparison.png)
-
-### Original Spectrogram
-
-![Original Spectrogram](images/original_spectrogram.png)
-
-### Denoised Spectrogram
-
-![Denoised Spectrogram](images/denoised_spectrogram.png)
 
 ## ⚠️ Challenges
 
@@ -159,6 +167,14 @@ Original vs. denoised audio waveform.
 
 ---
 
+## 📄 Project Report
+
+The complete project report is available here:
+
+📥 **[View Project Report](DENOISER.pdf)**
+
+---
+
 ## 📚 References
 
 1. S. K. Mitra — *Digital Signal Processing: A Computer-Based Approach*
@@ -179,11 +195,6 @@ Original vs. denoised audio waveform.
 **Varendra University**
 
 ---
-## 📄 Project Report
-
-The complete project report is available below.
-
-📥 **[View Project Report](DENOISER.pdf)**
 
 ## 📄 License
 
