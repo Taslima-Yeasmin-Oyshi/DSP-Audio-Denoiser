@@ -1,6 +1,3 @@
-# Denoiser
-🎧 A Python-based Digital Signal Processing (DSP) project for audio denoising using STFT, Spectral Subtraction, and Wiener Filtering with waveform and spectrogram visualization.
-
 # 🎧 Audio Denoising Using DSP Techniques
 
 A Python-based Digital Signal Processing (DSP) project that removes background noise from audio recordings using **Spectral Subtraction** and **Wiener Filtering**. The project visualizes the denoising process through waveform and spectrogram analysis, improving overall speech clarity and audio quality.
@@ -167,6 +164,11 @@ The implemented system successfully:
 **Varendra University**
 
 ---
+## 📄 Project Report
+
+The complete project report is available below.
+
+📥 **[View Project Report](DENOISER.pdf)**
 
 ## 📄 License
 
