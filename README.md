@@ -120,6 +120,21 @@ The implemented system successfully:
 - Preserves important speech information.
 
 ---
+## 📷 Output Visualizations
+
+### Waveform Comparison
+
+Original vs. denoised audio waveform.
+
+![Waveform Comparison](images/waveform_comparison.png)
+
+### Original Spectrogram
+
+![Original Spectrogram](images/original_spectrogram.png)
+
+### Denoised Spectrogram
+
+![Denoised Spectrogram](images/denoised_spectrogram.png)
 
 ## ⚠️ Challenges
 
