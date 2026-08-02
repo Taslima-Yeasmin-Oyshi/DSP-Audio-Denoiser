@@ -95,7 +95,7 @@ git clone https://github.com/Taslima-Yeasmin-Oyshi/Denoiser.git
 Install the required libraries:
 
 ```bash
-pip install numpy scipy librosa matplotlib soundfile
+pip install -r requirements.txt
 ```
 
 ---
