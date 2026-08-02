@@ -3,13 +3,13 @@
 
 # 🎧 Audio Denoising Using DSP Techniques
 
-A Python-based Digital Signal Processing (DSP) project that removes background noise from audio recordings using **Spectral Subtraction** and **Wiener Filtering**. The project visualizes the denoising process through waveform and spectrogram analysis, improving overall speech clarity and audio quality. :contentReference[oaicite:0]{index=0}
+A Python-based Digital Signal Processing (DSP) project that removes background noise from audio recordings using **Spectral Subtraction** and **Wiener Filtering**. The project visualizes the denoising process through waveform and spectrogram analysis, improving overall speech clarity and audio quality.
 
 ---
 
 ## 📌 Project Overview
 
-Background noise significantly degrades audio quality and affects applications such as speech recognition, telecommunication, and audio restoration. This project implements a DSP-based audio denoising pipeline that estimates the noise spectrum and suppresses unwanted noise while preserving important speech components. :contentReference[oaicite:1]{index=1}
+Background noise significantly degrades audio quality and affects applications such as speech recognition, telecommunication, and audio restoration. This project implements a DSP-based audio denoising pipeline that estimates the noise spectrum and suppresses unwanted noise while preserving important speech components.
 
 ---
 
@@ -19,8 +19,6 @@ Background noise significantly degrades audio quality and affects applications s
 - Reduce background noise from audio recordings.
 - Compare original and denoised audio using waveform and spectrogram analysis.
 - Improve speech clarity while preserving signal quality.
-
-:contentReference[oaicite:2]{index=2}
 
 ---
 
@@ -39,15 +37,13 @@ Background noise significantly degrades audio quality and affects applications s
 
 ## 🛠 Technologies Used
 
-- **Python**
-- **NumPy**
-- **SciPy**
-- **Librosa**
-- **Matplotlib**
-- **SoundFile**
-- **Google Colab**
-
-:contentReference[oaicite:3]{index=3}
+- Python
+- NumPy
+- SciPy
+- Librosa
+- Matplotlib
+- SoundFile
+- Google Colab
 
 ---
 
@@ -58,8 +54,6 @@ Background noise significantly degrades audio quality and affects applications s
 - Wiener Filtering
 - Noise Power Spectral Density (PSD) Estimation
 - Time-Frequency Masking
-
-:contentReference[oaicite:4]{index=4}
 
 ---
 
@@ -75,13 +69,11 @@ Background noise significantly degrades audio quality and affects applications s
 8. Visualize waveform and spectrogram.
 9. Save the denoised audio.
 
-:contentReference[oaicite:5]{index=5}
-
 ---
 
 ## 📂 Project Structure
 
-```
+```text
 Audio-Denoising-DSP/
 │
 ├── input_audio/
@@ -100,11 +92,10 @@ Audio-Denoising-DSP/
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/Audio-Denoising-DSP.git
-cd Audio-Denoising-DSP
+git clone https://github.com/Taslima-Yeasmin-Oyshi/Denoiser.git
 ```
 
-Install dependencies:
+Install the required libraries:
 
 ```bash
 pip install numpy scipy librosa matplotlib soundfile
@@ -131,8 +122,6 @@ The implemented system successfully:
 - Improves overall speech clarity.
 - Preserves important speech information.
 
-:contentReference[oaicite:6]{index=6}
-
 ---
 
 ## ⚠️ Challenges
@@ -147,49 +136,41 @@ The implemented system successfully:
 - Automatic quiet-frame detection.
 - Channel-wise denoising for stereo audio.
 
-:contentReference[oaicite:7]{index=7}
-
 ---
 
 ## 🔮 Future Improvements
 
-- Log-MMSE based denoising.
-- Adaptive noise tracking.
-- Machine Learning based speech enhancement.
-- Better performance in non-stationary environments.
-
-:contentReference[oaicite:8]{index=8}
+- Implement Log-MMSE based denoising.
+- Add adaptive noise tracking.
+- Integrate machine learning-based speech enhancement.
+- Improve performance in non-stationary environments.
 
 ---
 
 ## 📚 References
 
-- S. K. Mitra — *Digital Signal Processing: A Computer-Based Approach*
-- A. V. Oppenheim — *Discrete-Time Signal Processing*
-- Librosa Documentation
-- DSP StackExchange
-- Research papers on speech denoising and Wiener filtering
-
-:contentReference[oaicite:9]{index=9}
+1. S. K. Mitra — *Digital Signal Processing: A Computer-Based Approach*
+2. A. V. Oppenheim — *Discrete-Time Signal Processing*
+3. Librosa Documentation
+4. DSP StackExchange
+5. Research papers on speech denoising and Wiener filtering
 
 ---
 
 ## 👥 Contributors
 
-- **Taslima Yeasmin Oyshi**
-- **Mahir Bin Hasan**
-- **Abdullah Al Masum**
+- Taslima Yeasmin Oyshi
+- Mahir Bin Hasan
+- Abdullah Al Masum
 
-Department of Computer Science & Engineering  
-Varendra University
-
-:contentReference[oaicite:10]{index=10}
+**Department of Computer Science & Engineering**  
+**Varendra University**
 
 ---
 
 ## 📄 License
 
-This project was developed for academic and educational purposes as part of the **Digital Signal Processing Lab (CSE-416)** course. :contentReference[oaicite:11]{index=11}
+This project was developed for academic and educational purposes as part of the **Digital Signal Processing Lab (CSE-416)** course.
 
 ---
 
