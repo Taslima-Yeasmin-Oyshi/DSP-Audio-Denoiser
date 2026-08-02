@@ -79,9 +79,10 @@ DSP-Audio-Denoiser/
 ├── requirements.txt
 ├── 1010.mp3
 └── images/
+    images/
     ├── waveform_comparison.png
-    └── original_spectrogram.png
-    └── Denoised_spectrogram.png
+    ├── original_spectrogram.png
+    └── denoised_spectrogram.png
 ```
 
 ---
@@ -127,6 +128,8 @@ Spectrogram of the original audio signal.
 ![Original Spectrogram](images/original_spectrogram.png)
 
 ### Denoised Spectrogram
+
+Spectrogram of the audio after applying Wiener Filtering and noise reduction.
 
 ![Denoised Spectrogram](images/denoised_spectrogram.png)
 
